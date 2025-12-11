@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+dist/
+.env
+godspeed_site_deploy.zip
+.agent/
+**/.DS_Store
