@@ -24,6 +24,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700<link rel=" stylesheet" href="style.css">
     display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Snipcart CSS -->
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css" />
 </head>
 
 <body>
@@ -268,6 +271,14 @@
                             <li>Spacing habits</li>
                         </ul>
 
+                        </ul>
+                        <button class="btn-secondary snipcart-add-item" data-item-id="elite-guard-academy"
+                            data-item-price="150.00" data-item-url="/"
+                            data-item-description="Skill, IQ, and movement training for guards."
+                            data-item-image="assets/movement-mastery.png" data-item-name="Elite Guard Academy"
+                            style="width: 100%; margin-top: auto;">
+                            Join Program ($150)
+                        </button>
                     </div>
                 </div>
                 <div class="feature-card">
@@ -282,6 +293,15 @@
                             <li>Create advantages</li>
                             <li>Make decisions at live speed</li>
 
+                            <li>Make decisions at live speed</li>
+                        </ul>
+                        <button class="btn-secondary snipcart-add-item" data-item-id="iq-school"
+                            data-item-price="120.00" data-item-url="/"
+                            data-item-description="Learn to read space and manipulate defenders."
+                            data-item-image="assets/iq-decision.png" data-item-name="IQ School"
+                            style="width: 100%; margin-top: auto;">
+                            Join Program ($120)
+                        </button>
                     </div>
                 </div>
                 <div class="feature-card">
@@ -295,6 +315,15 @@
                             <li>Balance + posture</li>
                             <li>Low-to-the-ground efficiency</li>
 
+                            <li>Low-to-the-ground efficiency</li>
+                        </ul>
+                        <button class="btn-secondary snipcart-add-item" data-item-id="strength-movement"
+                            data-item-price="100.00" data-item-url="/"
+                            data-item-description="Functional athletic development."
+                            data-item-image="assets/confidence-resilience.jpg" data-item-name="Strength + Movement"
+                            style="width: 100%; margin-top: auto;">
+                            Join Program ($100)
+                        </button>
                     </div>
                 </div>
             </div>
@@ -474,6 +503,11 @@
     </div>
 
     <script src="script.js"></script>
+
+    <!-- Snipcart JS -->
+    <script async src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"></script>
+    <div hidden id="snipcart" data-api-key="YOUR_PUBLIC_API_KEY" data-config-modal-style="side"></div>
+
     <script>
         // Modal Logic
         function openContactModal() {
