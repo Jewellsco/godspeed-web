@@ -244,6 +244,9 @@ backdrop.className = 'card-backdrop';
 document.body.appendChild(backdrop);
 
 featureCards.forEach(card => {
+    // Only add expansion logic if the card actually has details to show
+    if (!card.querySelector('.card-details-expanded')) return;
+
     card.addEventListener('click', (e) => {
         // Prevent closing immediately if clicking inside expanded card
         if (card.classList.contains('expanded')) return;
